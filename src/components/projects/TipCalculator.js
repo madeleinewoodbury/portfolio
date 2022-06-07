@@ -4,6 +4,7 @@ const TipCalculator = () => {
   return (
     <article>
       <div class='text'>
+        <h4>Latest Project</h4>
         <h3>Tip Calculator</h3>
         <div class='info'>
           <p>
