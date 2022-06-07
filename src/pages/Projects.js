@@ -1,6 +1,7 @@
 import TipCalculator from '../components/projects/TipCalculator';
 import CovidStats from '../components/projects/CovidStats';
 import TinyChatRooms from '../components/projects/TinyChatRooms';
+import ClassicArcade from '../components/projects/ClassicArcade';
 
 const Projects = () => {
   return (
@@ -10,6 +11,7 @@ const Projects = () => {
         <TipCalculator />
         <CovidStats />
         <TinyChatRooms />
+        <ClassicArcade />
       </div>
     </section>
   );
