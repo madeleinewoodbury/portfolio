@@ -1,7 +1,8 @@
-import Navbar from './components/Navbar';
+import Navbar from './components/layout/Navbar';
 import Landing from './pages/Landing';
 import Projects from './pages/Projects';
-import Gradient from './components/Gradient';
+import Gradient from './components/layout/Gradient';
+import Footer from './components/layout/Footer';
 import './App.css';
 
 function App() {
@@ -12,6 +13,8 @@ function App() {
         <Landing />
         <Gradient />
         <Projects />
+        <Gradient />
+        <Footer />
       </main>
     </>
   );

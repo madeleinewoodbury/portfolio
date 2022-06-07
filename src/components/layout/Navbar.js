@@ -21,13 +21,13 @@ const Navbar = () => {
           <a href='#contact'>Contact</a>
         </li>
         <li>
-          <a href='www.linkedin.com'>
+          <a href='www.linkedin.com' rel='noreferrer'>
             <AiFillLinkedin aria-hidden='true' className='icon' />
             <span className='sr-only'>LinkedIn</span>
           </a>
         </li>
         <li>
-          <a href='www.github.com'>
+          <a href='www.github.com' rel='noreferrer'>
             <AiFillGithub aria-hidden='true' className='icon' />
             <span className='sr-only'>Github</span>
           </a>

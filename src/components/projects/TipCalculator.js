@@ -9,7 +9,11 @@ const TipCalculator = () => {
         <div class='info'>
           <p>
             This project was a coding challenge from{' '}
-            <a href='https://www.frontendmentor.io/' target='_blank'>
+            <a
+              href='https://www.frontendmentor.io/'
+              target='_blank'
+              rel='noreferrer'
+            >
               Frontend Mentor
             </a>
             . The app was built with React, the Context API, and Chakra UI for
@@ -20,12 +24,14 @@ const TipCalculator = () => {
             <a
               href='https://tip-calculator-kohl-chi.vercel.app/'
               target='_blank'
+              rel='noreferrer'
             >
               View Site
             </a>
             <a
               href='https://github.com/madeleinewoodbury/tip-calculator'
               target='_blank'
+              rel='noreferrer'
             >
               View Code
             </a>

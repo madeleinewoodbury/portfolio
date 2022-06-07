@@ -10,7 +10,7 @@ const CovidStats = () => {
           <p>
             This project was built with React and uses Bootstrap for styling.
             The app fetches data from the{' '}
-            <a href='https://covid19api.com/' target='_blank'>
+            <a href='https://covid19api.com/' target='_blank' rel='noreferrer'>
               Covid 19 API
             </a>{' '}
             and gets the covid statistics by country. Shows new cases from the
@@ -20,12 +20,14 @@ const CovidStats = () => {
             <a
               href='https://covid-stats-by-country.netlify.app/'
               target='_blank'
+              rel='noreferrer'
             >
               View Site
             </a>
             <a
               href='https://github.com/madeleinewoodbury/covid-stats'
               target='_blank'
+              rel='noreferrer'
             >
               View Code
             </a>
