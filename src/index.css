@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&family=Oxygen+Mono&display=swap');
+
 :root {
   --black: #000814;
   --dark: #001d3d;
@@ -27,4 +29,59 @@ body {
   font-size: var(--font-size);
   background-color: var(--black);
   color: var(--white);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: var(--secondary);
+}
+
+a:hover {
+  color: var(--light);
+  text-decoration: none;
+}
+
+.btn {
+  background-color: var(--light);
+  font-family: var(--mono);
+  text-decoration: none;
+  color: var(--black);
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  color: var(--dark);
+  background-color: var(--secondary);
+}
+
+small {
+  font-size: 1rem;
+}
+
+img {
+  width: 100%;
+}
+
+.sr-only {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
 }
