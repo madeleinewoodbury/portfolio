@@ -1,8 +1,15 @@
+import Info from '../components/Info';
+import Skills from '../components/Skills';
+import Gradient from '../components/layout/Gradient';
+
 const About = () => {
   return (
-    <div>
-      <h1>About</h1>
-    </div>
+    <>
+      <Info />
+      <Gradient />
+      <Skills />
+      <Gradient />
+    </>
   );
 };
 
