@@ -1,7 +1,9 @@
 const Contact = () => {
   return (
-    <div>
-      <h1>Contact</h1>
+    <div id='contact'>
+      <div className='container'>
+        <h2>Contact</h2>
+      </div>
     </div>
   );
 };

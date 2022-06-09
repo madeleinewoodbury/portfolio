@@ -1,15 +1,10 @@
-import Info from '../components/Info';
-import Skills from '../components/Skills';
-import Gradient from '../components/layout/Gradient';
-
 const About = () => {
   return (
-    <>
-      <Info />
-      <Gradient />
-      <Skills />
-      <Gradient />
-    </>
+    <section id='about'>
+      <div className='container'>
+        <h2>About Me</h2>
+      </div>
+    </section>
   );
 };
 

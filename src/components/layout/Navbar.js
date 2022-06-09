@@ -1,4 +1,3 @@
-import { NavLink, Link } from 'react-router-dom';
 import { AiFillCode, AiFillLinkedin, AiFillGithub } from 'react-icons/ai';
 const Navbar = () => {
   return (
@@ -6,20 +5,20 @@ const Navbar = () => {
       <ul>
         <li>
           <h1>
-            <Link className='brand' to='/'>
+            <a className='brand' href='#intro'>
               <AiFillCode aria-hidden='true' className='icon' />
               <span>Madeleine Woodbury</span>
-            </Link>
+            </a>
           </h1>
         </li>
         <li>
-          <NavLink to='#projects'>Projects</NavLink>
+          <a href='#projects'>Projects</a>
         </li>
         <li>
-          <NavLink to='/about'>About</NavLink>
+          <a href='#about'>About</a>
         </li>
         <li>
-          <NavLink to='/contact'>Contact</NavLink>
+          <a href='#contact'>Contact</a>
         </li>
         <li>
           <a href='https://github.com/madeleinewoodbury'>
