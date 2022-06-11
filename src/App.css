@@ -3,12 +3,14 @@ nav {
   font-family: var(--mono);
   font-size: 80%;
   padding: 4rem 1rem;
+  background-color: var(--black);
 }
 
 nav li a {
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 
 nav h1 a {

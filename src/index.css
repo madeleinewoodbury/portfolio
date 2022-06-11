@@ -2,6 +2,7 @@
 
 :root {
   --black: #000814;
+  --black-opacity: #000814dd;
   --dark: #001d3d;
   --primary: #003566;
   --secondary: #ffc300;
@@ -14,6 +15,7 @@
 
 html {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 *,
