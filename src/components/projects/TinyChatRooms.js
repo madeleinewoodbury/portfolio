@@ -3,10 +3,10 @@ import image from '../../img/tiny-chat-rooms.png';
 const TinyChatRooms = () => {
   return (
     <article>
-      <div class='text'>
+      <div className='text'>
         <h4>Realtime App</h4>
         <h3>Tiny Chat Rooms</h3>
-        <div class='info'>
+        <div className='info'>
           <p>
             A Realtime Chat Application built with React on the front-end and
             Node.js and Socket.io on the server side.
@@ -35,7 +35,7 @@ const TinyChatRooms = () => {
           <li>Socket.io</li>
         </ul>
       </div>
-      <div class='image'>
+      <div className='image'>
         <img src={image} alt='Screenshot of Tiny Chat Rooms' />
       </div>
     </article>

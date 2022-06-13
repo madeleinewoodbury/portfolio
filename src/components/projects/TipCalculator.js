@@ -3,10 +3,10 @@ import image from '../../img/tip-calc.png';
 const TipCalculator = () => {
   return (
     <article>
-      <div class='text'>
+      <div className='text'>
         <h4>Latest Project</h4>
         <h3>Tip Calculator</h3>
-        <div class='info'>
+        <div className='info'>
           <p>
             This project was a coding challenge from{' '}
             <a
@@ -43,7 +43,7 @@ const TipCalculator = () => {
           <li>Chakra Ui</li>
         </ul>
       </div>
-      <div class='image'>
+      <div className='image'>
         <img src={image} alt='Screenshot of Tip Calculator' />
       </div>
     </article>

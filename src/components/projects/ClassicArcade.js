@@ -3,10 +3,10 @@ import image from '../../img/classic-arcade-game.png';
 const ClassicArcade = () => {
   return (
     <article>
-      <div class='text'>
+      <div className='text'>
         <h4>Object Oriented JavaScript</h4>
         <h3>Classic Arcade Game</h3>
-        <div class='info'>
+        <div className='info'>
           <p>
             This is a classic frogger-like arcade game where the goal is for the
             player to collect as many gems as possible and reach the star at the
@@ -37,7 +37,7 @@ const ClassicArcade = () => {
           <li>JavaScript</li>
         </ul>
       </div>
-      <div class='image'>
+      <div className='image'>
         <img src={image} alt='Screenshot of Classic Arcade Game' />
       </div>
     </article>

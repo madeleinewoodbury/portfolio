@@ -1,7 +1,10 @@
+import { useLocation } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 import { AiFillCode, AiFillLinkedin, AiFillGithub } from 'react-icons/ai';
 
 const Navbar = () => {
+  const { pathname } = useLocation();
+  console.log(pathname);
   return (
     <nav id='nav'>
       <div className='nav-container'>
@@ -15,7 +18,11 @@ const Navbar = () => {
             </h1>
           </li>
           <li>
-            <a href='#projects'>Projects</a>
+            {pathname === '/' || pathname === '/projects' ? (
+              <a href='#projects'>Projects</a>
+            ) : (
+              <Link to='/projects'>Projects</Link>
+            )}
           </li>
           <li>
             <Link to='/about'>About</Link>

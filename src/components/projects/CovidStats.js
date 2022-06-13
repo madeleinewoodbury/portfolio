@@ -3,10 +3,10 @@ import image from '../../img/covid-stats.png';
 const CovidStats = () => {
   return (
     <article>
-      <div class='text'>
+      <div className='text'>
         <h4>API Project</h4>
         <h3>Covid Stats by Country</h3>
-        <div class='info'>
+        <div className='info'>
           <p>
             This project was built with React and uses Bootstrap for styling.
             The app fetches data from the{' '}
@@ -40,7 +40,7 @@ const CovidStats = () => {
           <li>Bootstrap</li>
         </ul>
       </div>
-      <div class='image'>
+      <div className='image'>
         <img src={image} alt='Screenshot of Tip Calculator' />
       </div>
     </article>
