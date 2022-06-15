@@ -161,6 +161,27 @@ nav li:first-child {
   margin-top: 0;
 }
 
+/* skills */
+#skills ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin: 1rem 0;
+}
+
+#skills li {
+  width: 50%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+#skills li span:first-of-type {
+  margin: 0.4rem 0.75rem 0 0;
+  font-size: 1.75rem;
+  color: var(--secondary);
+}
+
 /* Footer */
 
 footer {
