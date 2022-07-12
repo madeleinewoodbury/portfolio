@@ -5,7 +5,11 @@ import {
   SiNodedotjs,
   SiReact,
   SiGit,
+  SiPython,
+  SiCplusplus,
+  SiLinux,
 } from 'react-icons/si';
+import { HiDatabase } from 'react-icons/hi';
 
 const Skills = () => {
   return (
@@ -33,6 +37,18 @@ const Skills = () => {
           </li>
           <li>
             <span>
+              <SiPython />
+            </span>
+            <span>Python</span>
+          </li>
+          <li>
+            <span>
+              <SiCplusplus />
+            </span>
+            <span>C/C++</span>
+          </li>
+          <li>
+            <span>
               <SiNodedotjs />
             </span>
             <span>Node.js</span>
@@ -48,6 +64,18 @@ const Skills = () => {
               <SiGit />
             </span>
             <span>Git</span>
+          </li>
+          <li>
+            <span>
+              <HiDatabase />
+            </span>
+            <span>SQL/NoSQL</span>
+          </li>
+          <li>
+            <span>
+              <SiLinux />
+            </span>
+            <span>Linux</span>
           </li>
         </ul>
       </div>

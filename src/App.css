@@ -170,7 +170,6 @@ nav li:first-child {
 #skills ul {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-between;
   margin: 1rem 0;
 }
 
@@ -269,6 +268,9 @@ footer a:hover {
     order: 2;
     text-align: right;
   }
+  #skills li {
+    width: 33%;
+  }
 }
 @media (min-width: 850px) {
   nav {
@@ -280,5 +282,9 @@ footer a:hover {
     flex-basis: auto;
     text-align: left;
     margin-right: auto;
+  }
+
+  #skills li {
+    width: 25%;
   }
 }
