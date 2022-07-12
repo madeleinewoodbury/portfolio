@@ -1,10 +1,11 @@
 import { useLocation } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 import { AiFillCode, AiFillLinkedin, AiFillGithub } from 'react-icons/ai';
+import resume from '../../docs/dev-resume-2022-eng.pdf';
 
 const Navbar = () => {
   const { pathname } = useLocation();
-  console.log(pathname);
+
   return (
     <nav id='nav'>
       <div className='nav-container'>
@@ -43,7 +44,12 @@ const Navbar = () => {
             </a>
           </li>
           <li>
-            <a href='#resume' className='btn'>
+            <a
+              href={resume}
+              target='_blank'
+              rel='noopener noreferrer'
+              className='btn'
+            >
               Resume
             </a>
           </li>
