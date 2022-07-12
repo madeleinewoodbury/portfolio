@@ -14,7 +14,7 @@ const Navbar = () => {
             <h1>
               <Link className='brand' to='/'>
                 <AiFillCode aria-hidden='true' className='icon' />
-                <span>Madeleine Woodbury</span>
+                <span>woodburycode</span>
               </Link>
             </h1>
           </li>
@@ -36,7 +36,6 @@ const Navbar = () => {
             >
               Contact
             </a>
-            {/* <Link to='/contact'>Contact</Link> */}
           </li>
           <li>
             <a
