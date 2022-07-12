@@ -10,11 +10,18 @@ const Home = () => {
         </p>
         <h2>I create awesome websites.</h2>
 
-        <p>I'm a developer specializing in React and Node.js.</p>
+        <p>I'm a web developer specializing in React and JavaScript.</p>
 
         <p>
-          Currently, I'm working on a degree in Information Technology at{' '}
-          <a href='https://www.ntnu.no/'>NTNU</a>.
+          Currently, I'm working on a degree in Computer Engineering at{' '}
+          <a
+            href='https://www.usn.no/english/'
+            target='_blank'
+            rel='noreferrer'
+          >
+            USN
+          </a>
+          .
         </p>
       </section>
       <Gradient />

@@ -52,10 +52,8 @@ nav li:first-child {
 }
 
 /* intro styles */
-
 #intro {
   padding-bottom: 10rem;
-  /* height: calc(100vh - 12rem); */
   position: relative;
 }
 
@@ -79,20 +77,6 @@ nav li:first-child {
   font-size: 4rem;
   font-weight: normal;
 }
-
-/* #intro .scroll {
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  bottom: 0;
-  left: 0;
-}
-
-#intro .scroll a {
-  padding: 2rem;
-  font-size: 300%;
-} */
 
 /* projects and about styles */
 #projects h2 {
