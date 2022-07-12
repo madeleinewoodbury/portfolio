@@ -9,13 +9,21 @@ const Footer = () => {
       </h2>
       <ul>
         <li>
-          <a href='www.linkedin.com' target='_blank' rel='noreferrer'>
+          <a
+            href='https://www.linkedin.com/in/madeleine-woodbury/'
+            target='_blank'
+            rel='noreferrer'
+          >
             <AiFillLinkedin aria-hidden='true' className='icon' />
             <span className='sr-only'>LinkedIn</span>
           </a>
         </li>
         <li>
-          <a href='www.github.com' target='_blank' rel='noreferrer'>
+          <a
+            href='https://github.com/madeleinewoodbury'
+            target='_blank'
+            rel='noreferrer'
+          >
             <AiFillGithub aria-hidden='true' className='icon' />
             <span className='sr-only'>Github</span>
           </a>

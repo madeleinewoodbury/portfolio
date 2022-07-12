@@ -29,16 +29,31 @@ const Navbar = () => {
             <Link to='/about'>About</Link>
           </li>
           <li>
-            <Link to='/contact'>Contact</Link>
+            <a
+              href='mailto:mail@woodburycode.com'
+              target='_blank'
+              rel='noreferrer'
+            >
+              Contact
+            </a>
+            {/* <Link to='/contact'>Contact</Link> */}
           </li>
           <li>
-            <a href='https://github.com/madeleinewoodbury'>
+            <a
+              href='https://www.linkedin.com/in/madeleine-woodbury/'
+              target='_blank'
+              rel='noreferrer'
+            >
               <AiFillLinkedin aria-hidden='true' className='icon' />
               <span className='sr-only'>LinkedIn</span>
             </a>
           </li>
           <li>
-            <a href='https://www.github.com'>
+            <a
+              href='https://github.com/madeleinewoodbury'
+              target='_blank'
+              rel='noreferrer'
+            >
               <AiFillGithub aria-hidden='true' className='icon' />
               <span className='sr-only'>Github</span>
             </a>

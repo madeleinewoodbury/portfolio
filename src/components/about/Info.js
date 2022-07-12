@@ -6,13 +6,21 @@ const Info = () => {
       <div className='container'>
         <article>
           <div className='text'>
-            <h2>About Me</h2>
+            {/* <h2>About Me</h2> */}
             <div className='info'>
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Reiciendis doloremque quaerat labore? Perspiciatis tenetur,
-                similique ad libero maiores velit illo eligendi necessitatibus.
-                Maiores neque vero modi, repudiandae quae velit reiciendis.
+                <span className='first-line'>I am a Web Developer</span> and an
+                experienced multi-cam director. My passion for programming began
+                when I discovered the endless possibilities of mixing technology
+                and creativity.
+                <br />
+                <br />
+                In my work as a newscast director I have experienced firsthand
+                the importance of high-quality software and the difference it
+                can make in a workplace environment. This is the reason why I am
+                enthusiastic about finding new solutions through software
+                development and to continually learn and improve upon my skills
+                as a developer.
               </p>
             </div>
           </div>

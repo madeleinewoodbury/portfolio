@@ -133,6 +133,11 @@ nav li:first-child {
   padding: 0;
 }
 
+#about .info p .first-line {
+  font-size: 1.4rem;
+  color: var(--secondary);
+}
+
 #projects .info .links {
   padding: 0 1rem 1rem;
   display: flex;
