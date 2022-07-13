@@ -1,7 +1,7 @@
 import { useLocation } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 import { AiFillCode, AiFillLinkedin, AiFillGithub } from 'react-icons/ai';
-import resume from '../../docs/dev-resume-2022-eng.pdf';
+import resume from '../../docs/dev-resume-2022-v2.pdf';
 
 const Navbar = () => {
   const { pathname } = useLocation();
