@@ -15,11 +15,11 @@ const Home = () => {
         <p>
           Currently, I'm working on a degree in Computer Engineering at{' '}
           <a
-            href='https://www.usn.no/english/'
+            href='https://en.uit.no/startsida'
             target='_blank'
             rel='noreferrer'
           >
-            USN
+            UIT
           </a>
           .
         </p>
