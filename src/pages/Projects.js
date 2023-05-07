@@ -5,6 +5,7 @@ import TipCalculator from '../components/projects/TipCalculator';
 import CovidStats from '../components/projects/CovidStats';
 import TinyChatRooms from '../components/projects/TinyChatRooms';
 import ClassicArcade from '../components/projects/ClassicArcade';
+import StreamingAvailability from '../components/projects/StreamingAvailability';
 
 const Projects = () => {
   const projectRef = useRef();
@@ -21,7 +22,8 @@ const Projects = () => {
       <div className='container'>
         <h2>Projects I'm proud of</h2>
         <TipCalculator />
-        <CovidStats />
+        <StreamingAvailability />
+        {/* <CovidStats /> */}
         <TinyChatRooms />
         <ClassicArcade />
       </div>

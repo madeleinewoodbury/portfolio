@@ -4,7 +4,7 @@ const TipCalculator = () => {
   return (
     <article>
       <div className='text'>
-        <h4>Latest Project</h4>
+        <h4>Front End Project</h4>
         <h3>Tip Calculator</h3>
         <div className='info'>
           <p>

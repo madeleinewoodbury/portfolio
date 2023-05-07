@@ -40,7 +40,7 @@ const Footer = () => {
         </li>
       </ul>
       <p>
-        <small>&copy; 2022 Madeleine Woodbury. All rights reserved.</small>
+        <small>&copy; 2023 Madeleine Woodbury. All rights reserved.</small>
       </p>
     </footer>
   );
