@@ -10,18 +10,18 @@ const Home = () => {
         </p>
         <h2>I create awesome websites.</h2>
 
-        <p>I'm a web developer specializing in React and JavaScript.</p>
+        <p>I'm a software developer specializing in React, Three.js, and modern JavaScript.</p>
 
         <p>
-          Currently, I'm working on a degree in Computer Engineering at{' '}
+          Computer Engineering graduate from{' '}
           <a
             href='https://en.uit.no/startsida'
             target='_blank'
             rel='noreferrer'
           >
             UIT
-          </a>
-          .
+          </a>{' '}
+          with 2+ years of frontend development experience..
         </p>
       </section>
       <Gradient />
@@ -32,3 +32,4 @@ const Home = () => {
 };
 
 export default Home;
+
